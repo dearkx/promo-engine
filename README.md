@@ -1,9 +1,9 @@
 # promo-engine
 
-fetching Record  in various Senerio:<br/>
+<b>fetching Record  in various Senerio:</b><br/>
  API EndPoint : http://localhost:8080/product/
  <br/>
-<b>1:- Scenario A <br/>
+<b>1:- Scenario A </b><br/>
  [{
     "name":"A",
     "noOfproduct":1
@@ -17,7 +17,11 @@ fetching Record  in various Senerio:<br/>
 }]
 <br/>
  
-<b>2:- cenario B <br/>
+<b>2:- cenario B </b><br/>
+ a-> offer : how much offer you want to give for a particular product<br/>
+    -minBuyproductCountForOffer: buying how many unit you want to give offer<br/>
+    for example : if someone buy 3 product then 10 % off <br/>
+ b->: if product is new then no offer so in this case no discount</br>
 [{
     "name":"A",
     "noOfproduct":5,
@@ -34,7 +38,7 @@ fetching Record  in various Senerio:<br/>
     "noOfproduct":1
 }]
 <br/>
-<b>3:-Scenario C <br/>
+<b>3:-Scenario C </b><br/>
 [{
     "name":"A",
     "noOfproduct":3,
