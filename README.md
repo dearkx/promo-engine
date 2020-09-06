@@ -1,6 +1,9 @@
 # promo-engine
+<b> request need to pass in body</b><br/>
+database name  : promotion<br/>
+table will be contains id, name and price<br/>
 
-<b>fetching Record  in various Senerio:</b><br/>
+<b>Fetching Record  in various Senerio:</b><br/>
  API EndPoint : http://localhost:8080/product/
  <br/>
 <b>1:- Scenario A </b><br/>
