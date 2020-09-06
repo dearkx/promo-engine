@@ -18,12 +18,11 @@ fetching Record  in various Senerio:<br/>
 <br/>
  
 <b>2:- cenario B <br/>
-{
+[{
     "name":"A",
     "noOfproduct":5,
     "offer":13.33,
     "minBuyproductCountForOffer":3
-
 },{
     "name":"B",
     "noOfproduct":5,
@@ -33,8 +32,7 @@ fetching Record  in various Senerio:<br/>
 {
     "name":"C",
     "noOfproduct":1
-}
-]
+}]
 <br/>
 <b>3:-Scenario C <br/>
 [{
@@ -55,6 +53,5 @@ fetching Record  in various Senerio:<br/>
 {
     "name":"D",
     "noOfproduct":2
-}
-]
+}]
 <br/>
