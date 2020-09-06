@@ -10,8 +10,7 @@
    spring.datasource.password = "Your MySql password"
    <br/>
    -Remove comments for first time run
-   # Hibernate ddl auto (create, create-drop, validate, update)
-   #spring.jpa.hibernate.ddl-auto = create
+    #spring.jpa.hibernate.ddl-auto = create
   <br/>
 <b>Fetching Record  in various Senerio:</b><br/>
      API EndPoint : http://localhost:8080/product/
