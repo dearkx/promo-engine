@@ -3,11 +3,10 @@
 fetching Record  in various Senerio:<br/>
  API EndPoint : http://localhost:8080/product/
  <br/>
- Scenario A <br/>
+<b>1:- Scenario A <br/>
  [{
     "name":"A",
     "noOfproduct":1
-   
 },{
     "name":"B",
     "noOfproduct":1
@@ -15,11 +14,10 @@ fetching Record  in various Senerio:<br/>
 {
     "name":"C",
     "noOfproduct":1
-}
-]
+}]
 <br/>
  
- Scenario B <br/>
+<b>2:- cenario B <br/>
 {
     "name":"A",
     "noOfproduct":5,
@@ -38,8 +36,7 @@ fetching Record  in various Senerio:<br/>
 }
 ]
 <br/>
- Scenario C <br/>
- Case 3: 
+<b>3:-Scenario C <br/>
 [{
     "name":"A",
     "noOfproduct":3,
