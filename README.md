@@ -47,6 +47,7 @@ Input  : <br/>
     -minBuyproductCountForOffer: buying how many unit you want to give offer<br/>
     for example : if someone buy 3 product then 10 % off <br/>
  b->: if product is new then no offer so in this case no discount</br>
+ Input  : <br/>
 [{
     "name":"A",
     "noOfproduct":5,
@@ -64,6 +65,7 @@ Input  : <br/>
 }]
 <br/>
 <b>3:-Scenario C </b><br/>
+Input  : <br/>
 [{
     "name":"A",
     "noOfproduct":3,
