@@ -1,4 +1,4 @@
-# Promo-Pngine
+# Promo-Engine
       Request need to pass in body
       database name  : promotion
       table will be contains id, name and price
