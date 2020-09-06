@@ -1,16 +1,16 @@
-# promo-engine
-   <b> request need to pass in body</b><br/>
-   database name  : promotion<br/>
-   table will be contains id, name and price<br/>
-   application.properties: <br>
-   # Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
-   spring.datasource.url = jdbc:mysql://localhost:3306/promotion?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+# Promo-Pngine
+     <b> request need to pass in body</b><br/>
+      database name  : promotion<br/>
+      table will be contains id, name and price<br/>
+      application.properties: <br>
+      # Spring DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+      spring.datasource.url = jdbc:mysql://localhost:3306/promotion?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
 
-   spring.datasource.username = "Your Mysql username"<br/>
-   spring.datasource.password = "Your MySql password"
-   <br/>
-   -Remove comments for first time run
-    #spring.jpa.hibernate.ddl-auto = create
+      spring.datasource.username = "Your Mysql username"<br/>
+      spring.datasource.password = "Your MySql password"
+      <br/>
+      -Remove comments for first time run<br/>
+      #spring.jpa.hibernate.ddl-auto = create
   <br/>
 <b>Fetching Record  in various Senerio:</b><br/>
      API EndPoint : http://localhost:8080/product/
