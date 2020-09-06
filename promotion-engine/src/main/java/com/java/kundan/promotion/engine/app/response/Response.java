@@ -19,4 +19,5 @@ public class Response {
 	
 	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private Double totalAmount;
+	
 }
