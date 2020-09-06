@@ -21,7 +21,7 @@ public class ProductController {
 	private ProductService service;
 
 	@PostMapping
-	private Response insert(@RequestBody ProductDTO dto) {
+	private Response insert(@RequestBody List<ProductDTO> dto) {
 
 		return service.save(dto);
 	}

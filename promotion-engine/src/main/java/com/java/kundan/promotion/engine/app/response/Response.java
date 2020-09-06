@@ -12,10 +12,11 @@ public class Response {
 	
 	
 	@JsonInclude(JsonInclude.Include.NON_NULL)
-	private Product product;
+	private List<Product> product;
 	
 	@JsonInclude(JsonInclude.Include.NON_NULL)
 	private List<ProductResponse> productDto;
 	
-	private double totalAmount;
+	@JsonInclude(JsonInclude.Include.NON_NULL)
+	private Double totalAmount;
 }

@@ -21,17 +21,22 @@ public class ProductServiceImpl implements ProductService {
 	private ProductRepository repo;
 
 	@Override
-	public Response save(ProductDTO dto) {
-		Product p = new Product();
-		p.setName(dto.getName());
-		p.setPrice(dto.getPrice());
-		Product product = repo.save(p);
-		return response(product);
+	public Response save(List<ProductDTO> dtoList) {
+		List<Product> list = new ArrayList<Product>();
+		for (ProductDTO dto : dtoList) {
+			Product p = new Product();
+			p.setName(dto.getName());
+			p.setPrice(dto.getPrice());
+			Product product = repo.save(p);
+			list.add(product);
+		}
+		
+		return response(list);
 	}
 
-	private Response response(Product p) {
+	private Response response(List<Product> list) {
 		Response res = new Response();
-		res.setProduct(p);
+		res.setProduct(list);
 		return res;
 	}
 
