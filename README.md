@@ -7,6 +7,7 @@ table will be contains id, name and price<br/>
  API EndPoint : http://localhost:8080/product/
  <br/>
 <b>1:- Scenario A </b><br/>
+Input  : <br/>
  [{
     "name":"A",
     "noOfproduct":1
@@ -19,7 +20,28 @@ table will be contains id, name and price<br/>
     "noOfproduct":1
 }]
 <br/>
- 
+ Output : <br/>
+{
+    "productDto": [
+        {
+            "name": "A",
+            "noOfproduct": 1,
+            "price": 50.0
+        },
+        {
+            "name": "B",
+            "noOfproduct": 1,
+            "price": 30.0
+        },
+        {
+            "name": "C",
+            "noOfproduct": 1,
+            "price": 20.0
+        }
+    ],
+    "totalAmount": 100.0
+}
+<br/>
 <b>2:- cenario B </b><br/>
  a-> offer : how much offer you want to give for a particular product<br/>
     -minBuyproductCountForOffer: buying how many unit you want to give offer<br/>
