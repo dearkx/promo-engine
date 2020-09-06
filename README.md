@@ -12,7 +12,28 @@
       -Remove comments for first time run<br/>
       #spring.jpa.hibernate.ddl-auto = create
       
-  
+      Insert :
+      PostMapping : create the table and insert the data in db
+      API EndPoint : http://localhost:8080/product/
+      input :
+      [{
+        "name":"A",
+        "price":50
+      },
+      {
+         "name":"B",
+        "price":30
+      },
+      {
+         "name":"C",
+         "price":20
+      },
+            {
+         "name":"D",
+        "price":15
+      }
+      ]
+
       Fetching Record  in various Senerio:
        API EndPoint : http://localhost:8080/product/
        
