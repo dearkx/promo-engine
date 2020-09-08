@@ -73,10 +73,10 @@
         "totalAmount": 100.0
     }
       2:- cenario B
-      a-> offer : how much offer you want to give for a particular product<br/>
-            minBuyproductCountForOffer: buying how many unit you want to give offer<br/>
-            for example : if someone buy 3 product then 10 % off <br/>
-      b->: if product is new then no offer so in this case no discount</br>
+      a-> offer : how much offer you want to give for a particular product .offer=13.33 means 13.3% discount
+            minBuyproductCountForOffer: buying how many unit you want to give offer
+            for example : if someone buy 3 product then 10 % off
+      b->: if product is new then no offer so in this case no discount
       
       Input  : 
       
