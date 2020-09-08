@@ -78,7 +78,7 @@ public class ProductServiceImpl implements ProductService {
 		return eligibleForPromotionOffer(noOfProduct, price, offer, minBuyproductCountForOffer);
 	}
 
-	private static double eligibleForPromotionOffer(int totalProduct, double price, int offer,
+	private double eligibleForPromotionOffer(int totalProduct, double price, int offer,
 			int mustBuyproductCountForOffer) {
 
 		int eligiblePiarForDiscount = totalProduct / mustBuyproductCountForOffer;
