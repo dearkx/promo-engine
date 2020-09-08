@@ -89,7 +89,7 @@ public class ProductServiceImpl implements ProductService {
 			double totalDiscount = originalCostOfProduct * offer / 100;
 			afterDiscountPrice = originalCostOfProduct - totalDiscount;
 		}
-
+		
 		double productNotEligiblieForDiscountPrice = notEligibleForDiscount * price;
 		if (afterDiscountPrice > 0) {
 			double finalPriceOfProduct = afterDiscountPrice + productNotEligiblieForDiscountPrice;
@@ -97,4 +97,5 @@ public class ProductServiceImpl implements ProductService {
 		}
 		return 0;
 	}
+	
 }
